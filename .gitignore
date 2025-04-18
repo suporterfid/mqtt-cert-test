@@ -1,0 +1,4 @@
+extract-certs.bat
+extracted-certs/ca.crt
+extracted-certs/client.pfx
+extracted-certs/pfx-password.txt

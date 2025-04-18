@@ -51,7 +51,7 @@ client.tls_set(
     tls_version=ssl.PROTOCOL_TLS,
     ciphers=None
 )
-
+client.tls_insecure_set(True)  # Disable hostname verification
 # Connect to broker
 print("Connecting to MQTT broker...")
 client.connect("mosquitto", 8883, 60)

@@ -32,7 +32,6 @@ services:
     container_name: mqtt-client
     volumes:
       - certs-volume:/app/certs
-      - ./test-client.py:/app/test-client.py
     networks:
       - mqtt-network
     depends_on:

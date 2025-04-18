@@ -1,4 +1,3 @@
-# cert-generator/generate-certs.sh
 #!/bin/sh
 set -e
 
