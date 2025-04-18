@@ -1,4 +1,3 @@
-```markdown
 # MQTT SSL Test Environment
 
 This project sets up a complete MQTT environment with SSL/TLS certificate authentication using Docker Compose. It includes a certificate generator, an MQTT broker (Mosquitto), and an MQTT client for testing.
@@ -152,4 +151,4 @@ docker-compose down -v
 ## License
 
 This project is licensed under the MIT License.
-```
+
